@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" class="csstransforms csstransforms3d csstransitions">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#E4EBF8">
+  <title>桜瀬トナエ的网站导航</title>
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="./img/apple-touch-icon.jpg">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/iconfont.css">
+</head>
+
+<body id="page-top" class="politics_version">
+  <div id="web" class="section lb">
+    <div class="container">
+      <div class="section-title text-left">
+        <span style="display: inline-block;">
+          <h3>桜瀬トナエの网站导航</h3>
+        </span>
+        <div class="row">
+          <div class="col-md-8">
+            <p class="group-video"></p>
+          </div>
+          <div class="col-md-3 resize-col-md-3">
+            <input id="search" placeholder="关键词...">
+          </div>
+          <div class="col-md-1 resize-col-md-1">
+            <span id="submit" class="iconfont" ontouchstart="" @click="search_send">&#xe6d9;</span>
+          </div>
+        </div>
+      </div>
+      <div class="web-menu row">
+        <div class="col-md-12">
+          <div class="button-group filter-button-group text-left">
+            <button num="0" class="active" data-filter="*" ontouchstart="">全部</button>
+            <button num="0" class="btn_toogle is_period" ontouchstart=""><span class="iconfont">&#xe61f;</span></button>
+            <button num="1" class="period" data-filter=".web_1" ontouchstart="">自己的网站</button>
+            <button num="2" class="period" data-filter=".web_2" ontouchstart="">收藏的网站</button>
+            <button num="3" class="period" data-filter=".web_3" ontouchstart="">友链招募中</button>
+            <button num="4" class="period" data-filter=".web_4" ontouchstart="">友链招募中</button>
+            <button num="5" class="period" data-filter=".web_5" ontouchstart="">友链招募中</button>
+            <button num="6" class="period" data-filter=".web_6" ontouchstart="">友链招募中</button>
+            <button num="7" class="period" data-filter=".web_7" ontouchstart="">友链招募中</button>
+            <button num="0" class="category" ontouchstart="">常用</button>
+            <button num="0" class="category" ontouchstart="">生活</button>
+            <button num="0" class="category" ontouchstart="">技术</button>
+            <button num="0" class="category" ontouchstart="">视频</button>
+            <button num="0" class="category" ontouchstart="">音乐</button>
+            <button num="0" class="category" ontouchstart="">图片</button>
+            <button num="0" class="category" ontouchstart="">游戏</button>
+            <button num="0" class="category" ontouchstart="">攻略</button>
+            <button num="0" class="category" ontouchstart="">友情链接</button>
+            <button num="0" class="btn_star" data-filter=".is_star" ontouchstart=""><span
+                class="iconfont">&#xe609;</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="web-list row">
+      </div>
+    </div>
+  </div>
+  <div class="copyrights section hide">
+    <div class="container"> 
+      <p class="footer-links text-center">Copyright © 2023 <a href="https://space.bilibili.com/25405628/"
+          rel="nofollow noreferrer" target="_blank">桜瀬トナエ</a> <a href="https://www.ousetonae.com/"</a>
+          <a rel="nofollow noreferrer" >｜</a>
+                 <a class="github" href="https://github.com/OuseTonae/Guide-website" rel="nofollow noreferrer" target="_blank">开源代码</a>
+                ｜
+                 <span id="clickDisclaimer" data-toggle="modal" data-target="#Disclaimer">免责声明</span></p>
+      <p class="footer-links text-center"><a href="https://beian.miit.gov.cn/" rel="nofollow noreferrer"
+          target="_blank">ICP备案号</a></p>
+    </div>
+  </div>
+  <a href="#web" id="scroll-to-top" class="dmtop global-radius" ontouchstart=""><span
+      class="icon iconfont">&#xe626;</span></a>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">桜瀬トナエ：Ciallo～(∠・ω< )⌒★</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+       <div class="modal-body"> 
+         <img src2="./img/ousetonae.png" width="100%" style="border-radius: 5px;" alt="">
+       </div>
+       <div class="modal-footer col-md-12 text-center">
+          <button type="button" ontouchstart="" class="btn btn-primary github_lks_btn">开源</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="Disclaimer" data-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">免责声明</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+         <p>*本网站由LKs和<a href="https://github.com/xiangjianan/" rel="nofollow noreferrer" target="_blank">xjn</a >共同制作，由<a href="https://space.bilibili.com/25405628" rel="nofollow noreferrer" target="_blank">桜瀬トナエ</a >修改部分源码，仅供交流学习。</p >
+        </div>
+        <div class="modal-footer col-md-12 text-center">
+          <button id="DisclaimerClose" data-dismiss="modal" ontouchstart="" type="button"
+            class="btn btn-primary">我知道了！不再提醒</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="phone-modal">
+    <h3>简介</h3>
+    <hr>
+    <div class="slogan">
+      <span>内容</span>
+    </div>
+    <hr style="margin-bottom: 1.5em;">
+    <div class="hide-modal" ontouchstart="">
+      <span class="iconfont">&#xe603;</span>
+      <span class="like-num">0</span>
+    </div>
+    <a class="go-url" href="" target="_blank">
+      <div ontouchstart=""><span>访问</span></div>
+    </a>
+  </div>
+  <div class="back-modal"></div>
+</body>
+<script src="./js/jquery.js"></script>
+<script src="./js/index.js"></script>
+<script defer src="./js/bootstrap.js"></script>
+<script defer src="./js/defer.js"></script>
+
+</html>
