@@ -5,7 +5,8 @@ Ciallo～(∠・ω< )⌒★
 
 这是一个普通的网站导航
 
-实例站点：https://www.eeee.ooo
+~~实例站点：https://guide.ousetonae.com~~
+关了 懒得再开了（bushi）
 
 ***
 
